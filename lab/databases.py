@@ -20,6 +20,7 @@ def add_student(name, year, finished_lab):
 		finished_lab=finished_lab)
 	session.add(student_object)
 	session.commit()
+add_student("rahaf",2,True)
 
 def query_by_name(name):
 	"""
